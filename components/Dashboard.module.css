@@ -1,0 +1,292 @@
+.page {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+  color: #0f172a;
+}
+
+.heroEyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #6366f1;
+  margin: 0 0 0.6rem;
+}
+
+.heroTitle {
+  font-size: 2.3rem;
+  margin: 0 0 0.8rem;
+  line-height: 1.15;
+}
+
+.heroSub {
+  margin: 0 0 2rem;
+  font-size: 1.05rem;
+  color: #475569;
+  max-width: 760px;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.search {
+  flex: 1 1 240px;
+  padding: 0.55rem 0.85rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  background: #fff;
+}
+
+.search:focus {
+  outline: 2px solid #6366f1;
+  outline-offset: 1px;
+}
+
+.toggleGroup {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.toggle {
+  border: 1px solid #cbd5e1;
+  background: #fff;
+  border-radius: 999px;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  color: #334155;
+}
+
+.toggleActive {
+  border-color: #6366f1;
+  background: #eef2ff;
+  color: #4338ca;
+  font-weight: 600;
+}
+
+.count {
+  margin-left: auto;
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.tableWrap {
+  overflow-x: auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  min-width: 1080px;
+}
+
+.table thead th {
+  background: #f8fafc;
+  text-align: left;
+  padding: 0.85rem 0.9rem;
+  font-weight: 600;
+  color: #1e293b;
+  border-bottom: 1px solid #e2e8f0;
+  position: sticky;
+  top: 0;
+  white-space: nowrap;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.sortable:hover {
+  color: #4338ca;
+}
+
+.sortIndicator {
+  display: inline-block;
+  margin-left: 0.3rem;
+  color: #94a3b8;
+  font-size: 0.75rem;
+}
+
+.sortIndicatorActive {
+  color: #6366f1;
+}
+
+.table tbody td {
+  padding: 0.85rem 0.9rem;
+  border-bottom: 1px solid #f1f5f9;
+  vertical-align: top;
+}
+
+.table tbody tr:hover {
+  background: #f8fafc;
+}
+
+.modelCell {
+  min-width: 220px;
+}
+
+.vendor {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #64748b;
+  margin-bottom: 0.2rem;
+}
+
+.modelName {
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.silicon {
+  font-size: 0.78rem;
+  color: #64748b;
+  margin-top: 0.2rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.badge14 {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.badge13 {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.capacityCell {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
+.capacityOk {
+  color: #15803d;
+}
+
+.capacityWarn {
+  color: #b45309;
+}
+
+.meshBar {
+  display: inline-flex;
+  gap: 2px;
+  vertical-align: middle;
+  margin-right: 0.4rem;
+}
+
+.meshPip {
+  width: 8px;
+  height: 14px;
+  border-radius: 2px;
+  background: #e2e8f0;
+}
+
+.meshPipActive {
+  background: #6366f1;
+}
+
+.notes {
+  color: #475569;
+  font-size: 0.85rem;
+  max-width: 320px;
+}
+
+.combos {
+  margin-top: 3rem;
+}
+
+.combosTitle {
+  font-size: 1.45rem;
+  margin: 0 0 0.4rem;
+}
+
+.combosLead {
+  margin: 0 0 1.4rem;
+  color: #475569;
+  max-width: 720px;
+}
+
+.comboGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.comboCard {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background: #fff;
+  padding: 1.1rem 1.2rem;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.comboTitle {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+  color: #0f172a;
+}
+
+.comboCapacity {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #6366f1;
+  margin-bottom: 0.75rem;
+}
+
+.comboDevices {
+  margin: 0 0 0.7rem;
+  padding-left: 1.1rem;
+  font-size: 0.9rem;
+  color: #1e293b;
+}
+
+.comboDevices li {
+  margin-bottom: 0.15rem;
+}
+
+.comboWhy {
+  font-size: 0.88rem;
+  color: #475569;
+  margin: 0;
+}
+
+.footnote {
+  margin-top: 2.5rem;
+  font-size: 0.78rem;
+  color: #94a3b8;
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .heroTitle {
+    font-size: 1.7rem;
+  }
+
+  .table {
+    font-size: 0.82rem;
+  }
+}
